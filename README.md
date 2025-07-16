@@ -18,6 +18,6 @@ PythonとPyInstallerを使って作成しました。
 - ご不安な場合は、ソースコードから自分でビルドしてご利用ください
 
 ## ビルドのやり方
-- `pip install pyinstaller`でPyinstallerをインストールします。
-- `pyinstaller --onefile --noconsole --icon=icon.ico --name=CSV-to-SRT-Caption-Generator.exe main.py`というコマンドを実行します。(引数は変更可能です。)
-- `dist/CSV-to-SRT-Caption-Generator.exe`というファイルが出力されます。
+1. `pip install pyinstaller`でPyinstallerをインストールします。
+2. `pyinstaller --onefile --noconsole --icon=icon.ico --name=CSV-to-SRT-Caption-Generator.exe main.py`というコマンドを実行します。(引数は変更可能です。)
+3. `dist/CSV-to-SRT-Caption-Generator.exe`というファイルが出力されます。
